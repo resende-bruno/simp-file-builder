@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simp-file-builder"
+version = "0.1.0"
+description = "Generate Software Ideas Modeler (.simp) project files from Python"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [{ name = "Bruno", email = "b103590bruno@gmail.com" }]
+keywords = ["uml", "software-ideas-modeler", "simp", "diagram", "generator"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+]
+
+[project.urls]
+Homepage = "https://github.com/resende-bruno/simp-file-builder"
+
+[tool.setuptools]
+packages = ["simp_file_builder"]
